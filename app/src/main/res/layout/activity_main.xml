@@ -2,6 +2,6 @@
           xmlns:tools="http://schemas.android.com/tools"
           android:id="@+id/fragment"
           android:name="com.example.notes4kids.app.MainActivityFragment"
-          tools:layout="@layout/fragment_main"
+          tools:layout="@layout/mode_1"
           android:layout_width="match_parent"
           android:layout_height="match_parent"/>

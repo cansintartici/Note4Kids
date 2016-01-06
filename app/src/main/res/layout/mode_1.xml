@@ -6,83 +6,85 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context=".MainActivityFragment">
+                android:background="#ffffff">
 
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
+            android:text="FA"
+            android:id="@+id/buttonFa"
             android:maxWidth="100dp" android:layout_above="@+id/button4" android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"/>
+            android:layout_alignParentStart="true" android:background="#F44336"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button2"
-            android:layout_alignBottom="@+id/button" android:layout_centerHorizontal="true" android:maxWidth="100dp"/>
+            android:text="sol"
+            android:id="@+id/buttonSol"
+            android:layout_alignBottom="@+id/buttonFa" android:layout_centerHorizontal="true" android:maxWidth="100dp"
+            android:background="#03A9F4"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button3" android:layout_alignBottom="@+id/button2" android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" android:maxWidth="100dp"/>
+            android:text="LA"
+            android:id="@+id/buttonLa" android:layout_alignBottom="@+id/buttonSol" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" android:maxWidth="100dp" android:background="#E91E63"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="Zor"
             android:id="@+id/button4" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" android:maxWidth="100dp"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button5" android:layout_alignBottom="@+id/button4" android:layout_centerHorizontal="true"
-            android:maxWidth="100dp"/>
+            android:text="Sİ"
+            android:id="@+id/buttonSi" android:layout_alignBottom="@+id/button4" android:layout_centerHorizontal="true"
+            android:maxWidth="100dp" android:background="#FFEB3B"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button6" android:layout_alignBottom="@+id/button5" android:layout_alignLeft="@+id/button3"
-            android:layout_alignStart="@+id/button3" android:maxWidth="100dp"/>
+            android:text="Çıkış"
+            android:id="@+id/button6" android:layout_alignBottom="@+id/buttonSi"
+            android:maxWidth="100dp" android:layout_alignLeft="@+id/buttonLa" android:layout_alignStart="@+id/buttonLa"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button7" android:layout_above="@+id/button" android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" android:maxWidth="100dp"/>
+            android:text="DO"
+            android:id="@+id/buttonDo" android:layout_above="@+id/buttonFa" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:maxWidth="100dp" android:background="#795548"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button8" android:layout_alignBottom="@+id/button7" android:layout_alignLeft="@+id/button2"
-            android:layout_alignStart="@+id/button2" android:maxWidth="100dp"/>
+            android:text="RE"
+            android:id="@+id/buttonRe"
+            android:maxWidth="100dp" android:background="#9C27B0"
+            android:layout_above="@+id/buttonSol" android:layout_centerHorizontal="true"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button9" android:layout_alignBottom="@+id/button8" android:layout_alignLeft="@+id/button3"
-            android:layout_alignStart="@+id/button3" android:maxWidth="100dp"/>
+            android:text="Mİ"
+            android:id="@+id/buttonMi" android:layout_alignBottom="@+id/buttonRe" android:layout_alignLeft="@+id/buttonLa"
+            android:layout_alignStart="@+id/buttonLa" android:maxWidth="100dp" android:background="#3F51B5"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView2"
             android:src="@drawable/dizek"
-            android:layout_alignTop="@+id/imageView" android:layout_alignRight="@+id/button9"
-            android:layout_alignEnd="@+id/button9"/>
+            android:layout_alignTop="@+id/imageView" android:layout_alignRight="@+id/buttonLa"
+            android:layout_alignEnd="@+id/buttonSi"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/g1"
             android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" android:layout_toLeftOf="@+id/button8"
-            android:layout_toStartOf="@+id/button8"/>
+            android:layout_alignParentStart="true" android:layout_toLeftOf="@+id/buttonRe"
+            android:layout_toStartOf="@+id/buttonRe"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView3"
-            android:src="@drawable/re"
-            android:layout_marginTop="94dp"
-            android:layout_alignTop="@+id/imageView2" android:layout_centerHorizontal="true"/>
+            android:src="@drawable/mi" android:layout_alignBottom="@+id/imageView"
+            android:layout_alignRight="@+id/buttonRe" android:layout_alignEnd="@+id/buttonRe"
+            android:layout_marginBottom="78dp"/>
 </RelativeLayout>
