@@ -2,6 +2,7 @@ package com.example.notes4kids.app;
 
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -10,7 +11,7 @@ import java.util.Random;
 /**
  * Created by cansint on 05.01.2016.
  */
-public class Mode1Activity extends MainActivity {
+public class Mode1Activity extends AppCompatActivity {
 
     Button buttonFa = (Button)findViewById(R.id.buttonFa);
     Button buttonSol = (Button)findViewById(R.id.buttonSol);
